@@ -1,0 +1,63 @@
+{
+  "id": "PhDoanh/first-tutorial:v0.1.0",
+  "version": "0.1.0",
+  "summary": {
+    "title": "Introduction",
+    "description": "This is an introduction to your tutorial. It will show up on the first page when your tutorial is started."
+  },
+  "config": {
+    "testRunner": {
+      "command": "npm run programmatic-test",
+      "args": {
+        "tap": "--reporter=mocha-tap-reporter"
+      },
+      "directory": "coderoad"
+    },
+    "setup": {
+      "commands": [
+        "cd coderoad && npm install"
+      ],
+      "commits": [
+        "4def40255890785f3ac42cf57f75289cdfc72c60"
+      ]
+    },
+    "repo": {
+      "uri": "https://github.com/PhDoanh/first-tutorial",
+      "branch": "v0.1.0"
+    },
+    "dependencies": [
+      {
+        "name": "node",
+        "version": ">=10"
+      }
+    ]
+  },
+  "levels": [
+    {
+      "id": "1",
+      "title": "Create index.html",
+      "summary": "Optional summary for Level 1",
+      "content": "Here's where you can put a description, examples, and instructions for the lesson.",
+      "steps": [
+        {
+          "id": "1.1",
+          "content": "This is the test text. Create an `index.html` file to pass this lesson.",
+          "hints": [
+            "This is a hint to help people through the test",
+            "Second hint for 1.1, don't worry if the hints don't show up yet"
+          ],
+          "setup": {
+            "commits": [
+              "dcd5392aa41852afc46f2f2ff6e4beb2a8cf41d1"
+            ]
+          },
+          "solution": {
+            "commits": [
+              "0b525800036d11c69ff022bf487dbf104d85098f"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}
